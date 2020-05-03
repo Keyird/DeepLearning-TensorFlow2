@@ -1,0 +1,7 @@
+DenseNet实战讲解，可参考我的博客：[TF2.0深度学习实战（八）：搭建DenseNet稠密神经网络](https://blog.csdn.net/wjinjie/article/details/105900283)  
+环境搭建可参考：[Anaconda3+tensorflow2.0.0+PyCharm安装与环境搭建](https://blog.csdn.net/wjinjie/article/details/104342769)
+  
+本期采用TensorFlow2.0框架搭建DenseNet，代码已经上传，需要的请自行下载。
+model.py 是搭建网络模型脚本
+train.py 是训练脚本
+下载好这个项目后，运行train.py即可开始训练！
