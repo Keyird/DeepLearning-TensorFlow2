@@ -19,7 +19,7 @@
 &emsp;&emsp; 2. SSD（已完成）  
 &emsp;&emsp; 3. YOLO系列（正在更新中）
 
-- 语义分割任务
+- 语义分割任务  
 &emsp;&emsp; 1. SegNet  
 &emsp;&emsp; 2. MobileNet-SegNet
 
