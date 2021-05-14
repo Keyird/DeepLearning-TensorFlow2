@@ -12,6 +12,7 @@
 &emsp;&emsp; 6. GooLeNet（已完成）  
 &emsp;&emsp; 7. ResNet系列（已完成）  
 &emsp;&emsp; 8. DenseNet系列（已完成）
+&emsp;&emsp; 9. ResNet-101迁移学习（已完成）
 
 - 目标检测任务  
 &emsp;&emsp; 1. RCNN系列  
