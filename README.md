@@ -14,10 +14,10 @@
 &emsp;&emsp; 8. DenseNet系列（已完成）  
 &emsp;&emsp; 9. ResNet-101迁移学习（已完成）
 
-- 目标检测任务  
+- [目标检测任务]()  
 &emsp;&emsp; 1. RCNN系列  
-&emsp;&emsp; 2. SSD（已完成）  
-&emsp;&emsp; 3. YOLO系列（正在更新中）
+&emsp;&emsp; 2. SSD（更新中）  
+&emsp;&emsp; 3. YOLO系列（已完成）
 
 - 语义分割任务  
 &emsp;&emsp; 1. SegNet  
