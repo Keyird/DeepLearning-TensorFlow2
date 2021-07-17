@@ -3,25 +3,25 @@
 在这个项目中，我将使用谷歌 TensorFlow2 框架逐一复现经典的卷积神经网络：LeNet-5、AlexNet、VGG系列、GooLeNet、ResNet 系列、DenseNet 系列，以及经典的目标检测网络：RCNN系列、SSD、YOLO系列等。
 
 ## 教程目录
-- 图像分类任务  
-&emsp;&emsp; 1. 手写数字识别FirstNet（已完成）  
-&emsp;&emsp; 2. 快速搭建卷积网络FastNet（已完成）  
-&emsp;&emsp; 3. LeNet-5（已完成）  
-&emsp;&emsp; 4. AlexNet（已完成）  
-&emsp;&emsp; 5. VGG系列（已完成）  
-&emsp;&emsp; 6. GooLeNet（已完成）  
-&emsp;&emsp; 7. ResNet系列（已完成）  
-&emsp;&emsp; 8. DenseNet系列（已完成）  
-&emsp;&emsp; 9. ResNet-101迁移学习（已完成）
+- [图像分类任务](https://github.com/Keyird/DeepLearning-TensorFlow2)  
+&emsp;&emsp; 1. 手写数字识别FirstNet （已完成）  
+&emsp;&emsp; 2. 快速搭建卷积网络FastNet （已完成）  
+&emsp;&emsp; 3. LeNet-5 （已完成）  
+&emsp;&emsp; 4. AlexNet （已完成）  
+&emsp;&emsp; 5. VGG系列 （已完成）  
+&emsp;&emsp; 6. GooLeNet （已完成）  
+&emsp;&emsp; 7. ResNet系列 （已完成）  
+&emsp;&emsp; 8. DenseNet系列 （已完成）  
+&emsp;&emsp; 9. ResNet-101迁移学习 （已完成）
 
-- [目标检测任务]()  
+- [目标检测任务](https://github.com/Keyird/TensorFlow2-Detection)  
 &emsp;&emsp; 1. RCNN系列  
-&emsp;&emsp; 2. SSD（更新中）  
-&emsp;&emsp; 3. YOLO系列（已完成）
+&emsp;&emsp; 2. SSD （更新中）  
+&emsp;&emsp; 3. YOLO系列 （已完成）
 
-- 语义分割任务  
-&emsp;&emsp; 1. SegNet  
-&emsp;&emsp; 2. MobileNet-SegNet
+- [语义分割任务](https://github.com/Keyird/TensorFlow2-Segmentation) 
+&emsp;&emsp; 1. SegNet （已完成）
+&emsp;&emsp; 2. MobileNet-SegNet （已完成）
 
 ## 项目环境
  - Anaconda3
