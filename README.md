@@ -19,8 +19,8 @@
 &emsp;&emsp; 2. SSD （更新中）  
 &emsp;&emsp; 3. YOLO系列 （已完成）
 
-- [语义分割任务](https://github.com/Keyird/TensorFlow2-Segmentation) 
-&emsp;&emsp; 1. SegNet （已完成）
+- [语义分割任务](https://github.com/Keyird/TensorFlow2-Segmentation)   
+&emsp;&emsp; 1. SegNet （已完成）  
 &emsp;&emsp; 2. MobileNet-SegNet （已完成）
 
 ## 项目环境
