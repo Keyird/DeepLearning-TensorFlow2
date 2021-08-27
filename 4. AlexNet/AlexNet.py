@@ -96,7 +96,7 @@ print('images', len(images), images)
 print('labels', len(labels), labels)
 print(table)
 db = tf.data.Dataset.from_tensor_slices((images, labels))  # images: string path， labels: number
-db = db.shuffle(1000).map(preprocess).batch(32).repeat(20)
+db = db.shuffle(1000).map(preprocess,num_parallel_calls=tf.data.experimental.AUTOTUNE).batch(32).repeat(20)
 
 # 2.网络搭建
 network = Sequential([
