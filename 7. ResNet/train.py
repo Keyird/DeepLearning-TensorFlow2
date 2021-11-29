@@ -18,10 +18,10 @@ y_test = tf.squeeze(y_test, axis=1)
 print(x.shape, y.shape, x_test.shape, y_test.shape)
 
 train_db = tf.data.Dataset.from_tensor_slices((x,y))
-train_db = train_db.shuffle(50000).map(preprocess).batch(128)
+train_db = train_db.shuffle(50000).map(preprocess,num_parallel_calls=tf.data.experimental.AUTOTUNE).batch(128)
 
 test_db = tf.data.Dataset.from_tensor_slices((x_test,y_test))
-test_db = test_db.map(preprocess).batch(128)
+test_db = test_db.map(preprocess,num_parallel_calls=tf.data.experimental.AUTOTUNE).batch(128)
 
 sample = next(iter(train_db))
 print('sample:', sample[0].shape, sample[1].shape,
