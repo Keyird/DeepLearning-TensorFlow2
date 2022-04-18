@@ -7,8 +7,11 @@ import os
 import PIL.Image as im
 import numpy as np
 
-data_root = os.path.abspath(os.path.join(os.getcwd(), "../.."))  # 获得根路径
-image_path = data_root + "/DeepLearning/ResNet-101/flower_data/"  # 花数据集的路径
+# data_root = os.path.abspath(os.path.join(os.getcwd(), "../.."))  # 获得根路径
+# image_path = data_root + "/DeepLearning/ResNet-101/flower_data/"  # 花数据集的路径
+
+data_root = os.getcwd() # 获得根路径
+image_path = data_root + "\\flower_data\\"  # 花数据集的路径
 train_dir = image_path + "train"
 validation_dir = image_path + "val"
 
